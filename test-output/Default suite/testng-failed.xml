@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.wordpress.qa.test.LoginPageTest">
-        <methods>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- com.wordpress.qa.test.LoginPageTest -->
       <class name="com.wordpress.qa.test.LandingPageTest">
         <methods>
           <include name="wordpressTest2"/>
@@ -15,5 +10,5 @@
         </methods>
       </class> <!-- com.wordpress.qa.test.LandingPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
