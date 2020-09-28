@@ -11,6 +11,7 @@
       <class name="com.wordpress.qa.test.LandingPageTest">
         <methods>
           <include name="wordpressTest2"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- com.wordpress.qa.test.LandingPageTest -->
     </classes>

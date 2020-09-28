@@ -14,13 +14,11 @@ public class SignupPageTest extends BasePage{
 
 	public static Logger log=LogManager.getLogger(BasePage.class.getName());
 
-	public Object [][] Test_Data;
 	@BeforeTest
 	public void initialize() throws IOException{
 		driver=initializeDriver();
 	}
 
-	//@Test(dataProvider="wordPressTestData")
 	@Test
 	public void wordpressTest() throws InterruptedException {
 		SignupPage lp= new SignupPage();
@@ -43,17 +41,4 @@ public class SignupPageTest extends BasePage{
 		log.debug("window is maximized");
 	}
 
-	/*
-	 * @DataProvider(name="wordPressTestData") public Object[][] passData() {
-	 * Object[][] data= new Object[3][1]; //rows will tell you the no of iteration
-	 * //columns will tell you the no of data provided in one iteration
-	 * data[0][0]="anuragolu199@gmail.com"; //1st iteration data[1][0]="anuragolu";
-	 * data[2][0]="@sadhna00";
-	 * 
-	 * log.info("1st iteration done"); return data; }
-	 */
-
-	/*
-	 * @AfterTest public void teardown() { driver.close(); driver=null; }
-	 */
 }

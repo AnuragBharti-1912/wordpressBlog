@@ -11,12 +11,6 @@ import com.wordpress.qa.base.BasePage;
 
 public class LoginPage extends BasePage {
 
-//	@FindBy(xpath="//a[contains(text(),'Sign In')]")
-//	WebElement LogIn;
-	
-	//@FindBy(linkText="Sign In")
-	//WebElement LogIn;
-	
 	@FindBy(id="usernameOrEmail")
 	WebElement EmailOrUser;
 
@@ -34,10 +28,6 @@ public class LoginPage extends BasePage {
 		PageFactory.initElements(driver, this);
 	}
 
-//	public void StartBlog() {
-//		LogIn.click();
-//	}
-
 	public String EmailAddress(String email) {
 		EmailOrUser.sendKeys(email);
 		return email;
@@ -45,7 +35,7 @@ public class LoginPage extends BasePage {
 
 	public void Continue() {
 		Continue.click();
-		}
+	}
 
 	public String EmailPwd(String pwd) {
 		Password.sendKeys(pwd);

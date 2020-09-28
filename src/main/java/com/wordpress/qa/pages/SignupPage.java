@@ -48,5 +48,6 @@ public class SignupPage extends BasePage {
 	}
 
 	public void CreateAcc() {
-		Create.click();}
+		Create.click();
+	}
 }
