@@ -10,7 +10,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.wordpress.qa.base.BasePage;
 import com.wordpress.qa.pages.LoginPage;
-import com.wordpress.qa.pages.SignupPage;
 
 public class LoginPageTest extends BasePage{
 
