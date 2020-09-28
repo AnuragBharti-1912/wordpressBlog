@@ -11,10 +11,6 @@
 	<name>wordpressBlog</name>
 	<url>http://maven.apache.org</url>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -35,7 +31,6 @@
 			<version>4.1.2</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-chrome-driver</artifactId>
@@ -59,7 +54,6 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.0.0-alpha-5</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
